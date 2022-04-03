@@ -1,2 +1,52 @@
 ﻿
 
+1) Karta
+
+ - Tytul (string)
+ - NrKarty (int[2])
+ - Wydanie (int)
+ - Nastepne (Karta)
+ - Poprzednie (Karta)
+ - Sygnatury (Sygnatura[])
+
+2) Sygnatura
+ - Cena (Cena)
+ - DataZakupu (DateTime)
+ - Komentarz (string)
+ - NumerSygnatury (int)
+ - StanAktywnosci (bool)
+ - Wypozyczenia (Wypozyczenie[])
+
+
+3) Cztelnik 
+ - Numer (string)
+4) Autor
+ - Imie (string)
+ - DrugieImie (string)
+ - Nazwisko (string)
+
+5) Cena
+	- wartosc (dobule)
+	- komentarz (string)
+
+6) Wypozyczenie 
+ - Czytelnik (Czytelnik)
+ - DataWypozyczenia (DAtetime)
+ - DataPrzewidywanegoZwrotu (DateTime)
+ - DatazRzeczywistegoZwrotu(Datetime)
+ - Uwagi (string)
+ - Przedluzenie (Wypozyczenie)
+ - NaliczonaKarta (int)
+ - ZaplaconaKarta(int)
+
+ Płatne: 
+ EnterpiseArchitect 
+ LBLGEN
+
+ Bezpłatne
+ Wireflow
+ Modelio
+ NClass
+ Archi
+ UML Designer
+

@@ -1,0 +1,24 @@
+﻿Skopiuj ManagerZawodnikow do nowego projektu i go rozbuduj
+
+c1.
+Dodaj do klasy ManagerZawodnikow dwie metody:
+- PodajSredniWzrostZawodnikow
+- PodajSredniaWageZawodnikow
+
+c2. 
+
+- PodajSredniWzrostDlaKazdegoKraju
+pol 187   <-- GrupaKraj { nazwaKraju, sredniWzrost }
+ger 178
+fin 186
+
+GrupaKraj[]
+
+
+c3.
+
+Dodaj do klasy ManagerZawodnikow 
+konstruktor, który będzie umożliwiał wybór 
+czy chcemy importować dane z pliku lokalnego
+czy z pliku zdalnego na serwerze 
+skorzystaj enumeratora - opcja : Lokalna, Zdalna

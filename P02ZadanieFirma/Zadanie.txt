@@ -1,0 +1,14 @@
+﻿
+
+Proszę utworzyć odpowiednie klasy domenowe dla problemu:
+
+Piszemy program, który ma obsługiwać firme
+
+Firma zatrudnia pracowników
+każdy pracownik w tej firmie ma imie, nazwisko i pensję. 
+Pracownicy mogą wystawiać faktury
+ a na fakturze znajdują się towary 
+ Faktura posiada numer, data utworzenia. 
+
+ Towar posiada cenę i kategorię 
+  (jedna z czterech : "czerwone, czarne, niebieskie, żółte")

@@ -8,6 +8,7 @@
  - Nastepne (Karta)
  - Poprzednie (Karta)
  - Sygnatury (Sygnatura[])
+ - Autor (Autor[])
 
 2) Sygnatura
  - Cena (Cena)
@@ -42,6 +43,7 @@
  Płatne: 
  EnterpiseArchitect 
  LBLGEN
+ Visual Paradigm
 
  Bezpłatne
  Wireflow
@@ -49,4 +51,4 @@
  NClass
  Archi
  UML Designer
-
+ Draw.io 

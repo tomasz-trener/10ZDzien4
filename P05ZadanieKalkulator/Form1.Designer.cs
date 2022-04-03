@@ -218,7 +218,7 @@ namespace P05ZadanieKalkulator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(238, 264);
+            this.ClientSize = new System.Drawing.Size(231, 264);
             this.Controls.Add(this.btnMinus);
             this.Controls.Add(this.btnRownaSie);
             this.Controls.Add(this.btnZero);

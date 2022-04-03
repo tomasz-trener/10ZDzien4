@@ -7,3 +7,9 @@ rozbuduj program tak aby wyświetał ikonkę
 - snieg gdy temp w C ponizej 0 
 - chmurka gdy  temp  C od 0 do 10
 - slonce gdy temp powyzej 10 
+
+
+
+
+microsoft sql server 2012 express 
+microsoft management studio

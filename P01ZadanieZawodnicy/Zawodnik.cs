@@ -17,9 +17,15 @@ namespace P01ZadanieZawodnicy
         public int Wzrost;
         public int Waga;
 
+        public string ImieNazwisko
+        {
+            get { return Imie + " " + Nazwisko; }
+        }
+
+
         public string PrzedstawSie()
         {
-            return $"Nazywam się {Imie} {Nazwisko} i pochodzę z {Kraj}";
+            return $"Nazywam się {ImieNazwisko} i pochodzę z {Kraj}";
         }
 
 

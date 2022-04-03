@@ -24,6 +24,15 @@ namespace P01ZadanieZawodnicy
         private string[] wierszeZleSformatowane;
         private TypImportu typImportu;
    
+        public string[] WierszeZleSformatowane
+        {
+            get
+            {
+                return wierszeZleSformatowane;
+            }
+        }
+
+
         public ManagerZawodnikow(string sciezka, TypImportu typImportu)
         {
             this.sciezka = sciezka; // this odwołuje siędo ciała klasy i jest potzrebne tylko w styuacji gdy wystepuje konflikt nazw
@@ -63,7 +72,7 @@ namespace P01ZadanieZawodnicy
                     z.DataUrodzenia = Convert.ToDateTime(komorki[5]);
                     z.Wzrost = Convert.ToInt32(komorki[6]);
                     z.Waga = Convert.ToInt32(komorki[7]);
-                    zawodnicy.Add(z);
+                    zawodnicy.Add(z); 
                 }
                 catch (Exception)
                 {

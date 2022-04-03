@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A14C4D1D-8EA4-42BF-A07B-6C75C9F6989E}</ProjectGuid>
+    <ProjectGuid>{F930503D-4BA7-46AD-8F75-8CD850570EE6}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>P02ZadanieFirma</RootNamespace>
-    <AssemblyName>P02ZadanieFirma</AssemblyName>
+    <RootNamespace>P03ZadanieBiblioteka</RootNamespace>
+    <AssemblyName>P03ZadanieBiblioteka</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,16 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Faktura.cs" />
-    <Compile Include="Firma.cs" />
-    <Compile Include="Pracownik.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Towar.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="biblioteka.pdf" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Zadanie.txt" />

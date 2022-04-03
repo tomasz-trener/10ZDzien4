@@ -1,0 +1,9 @@
+﻿Program pozwala na wczytanie nazwy miasta z listy rozwijanej
+po kliknieciu przycisku wczytaj , w  labelce pojawia się 
+aktualna tmeperatura dla  danego miasta, pobrana z google. 
+
+
+rozbuduj program tak aby wyświetał ikonkę 
+- snieg gdy temp w C ponizej 0 
+- chmurka gdy  temp  C od 0 do 10
+- slonce gdy temp powyzej 10 

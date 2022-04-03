@@ -1,0 +1,28 @@
+﻿
+
+Stwórz program kalkulator, który skąłda się z :
+
+1) pola do wyświtlania wyniku i równania (textbox)
+2) przycisków numerycznych od 0 do  9 (button)
+3) przycisków + , -, *, /
+4) przycisk = 
+
+
+po naciśnięciu przycisku numerycznego 
+dana wartośc pojawia się na wyświtlaczu 
+(np na wyświetlaczu pojawi się 4)
+
+nastenie gdy kliniemy np przycsik + 
+(na wyświetlaczu pojawi się 4+)
+
+potem gdy klikniemy np przycisk 6 
+(na wyświetlaczu pojawi się 4+6)
+
+
+nastepnie gdy klikniemy przycisk = 
+na wysietlaczu pojawia się wynik 
+
+ogranicznie: 
+obsługujemy tylko jedno działanie na raz czyli nie zadziała np:  2+3+4
+
+ale zadziała np 123*45   czyli działanie złożone z wielocyfrowych argumentów 
